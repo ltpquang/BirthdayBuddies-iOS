@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6F25D1CD1A0F2E2B005D80B1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */; };
+		6F25D1D61A0F35CC005D80B1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */; };
 		6F4FF0A31A02A47200501CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A21A02A47200501CE4 /* main.m */; };
 		6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A51A02A47200501CE4 /* AppDelegate.m */; };
 		6F4FF0AC1A02A47200501CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AA1A02A47200501CE4 /* Main.storyboard */; };
@@ -28,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		6F25D1D41A0F35CC005D80B1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
+		6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
 		6F4FF09D1A02A47200501CE4 /* BirthdayBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0A11A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0A21A02A47200501CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +71,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6F25D1CE1A0F3380005D80B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6F25D1D31A0F3588005D80B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F25D1D41A0F35CC005D80B1 /* LoginViewController.h */,
+				6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		6F4FF0941A02A47200501CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,11 +108,13 @@
 		6F4FF09F1A02A47200501CE4 /* BirthdayBuddies */ = {
 			isa = PBXGroup;
 			children = (
+				6F25D1D31A0F3588005D80B1 /* Controller */,
+				6F25D1CE1A0F3380005D80B1 /* View */,
 				6F4FF0A41A02A47200501CE4 /* AppDelegate.h */,
 				6F4FF0A51A02A47200501CE4 /* AppDelegate.m */,
-				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
 				6F4FF0AD1A02A47200501CE4 /* Images.xcassets */,
 				6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */,
+				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
 				6F25D1CB1A0F2E16005D80B1 /* Frameworks */,
 				6F4FF0A01A02A47200501CE4 /* Supporting Files */,
 			);
@@ -228,6 +249,7 @@
 			files = (
 				6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */,
 				6F4FF0A31A02A47200501CE4 /* main.m in Sources */,
+				6F25D1D61A0F35CC005D80B1 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +378,7 @@
 					"$(PROJECT_DIR)/BirthdayBuddies",
 				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -370,6 +393,7 @@
 					"$(PROJECT_DIR)/BirthdayBuddies",
 				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
