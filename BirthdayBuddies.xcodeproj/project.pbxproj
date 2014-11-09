@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F25D1CD1A0F2E2B005D80B1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */; };
 		6F4FF0A31A02A47200501CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A21A02A47200501CE4 /* main.m */; };
 		6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A51A02A47200501CE4 /* AppDelegate.m */; };
 		6F4FF0AC1A02A47200501CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AA1A02A47200501CE4 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		6F4FF09D1A02A47200501CE4 /* BirthdayBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0A11A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0A21A02A47200501CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F25D1CD1A0F2E2B005D80B1 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F25D1CB1A0F2E16005D80B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F4FF0941A02A47200501CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
 				6F4FF0AD1A02A47200501CE4 /* Images.xcassets */,
 				6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */,
+				6F25D1CB1A0F2E16005D80B1 /* Frameworks */,
 				6F4FF0A01A02A47200501CE4 /* Supporting Files */,
 			);
 			path = BirthdayBuddies;
@@ -339,6 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BirthdayBuddies",
+				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,6 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BirthdayBuddies",
+				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +428,7 @@
 				6F4FF0C21A02A47200501CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F4FF0C31A02A47200501CE4 /* Build configuration list for PBXNativeTarget "BirthdayBuddiesTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +437,7 @@
 				6F4FF0C51A02A47200501CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
