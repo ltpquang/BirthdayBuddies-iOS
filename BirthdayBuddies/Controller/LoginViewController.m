@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-//#import <FacebookSDK/FacebookSDK.h>
+#import "AppDelegate.h"
 
 @interface LoginViewController ()
 
@@ -41,5 +41,24 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - IBActions
+- (IBAction)LoginWithFacebookButton_TUI:(id)sender {
+    // If the session state is any of the two "open" states when the button is clicked
+    
+    // Open a session showing the user the login UI
+    // You must ALWAYS ask for public_profile permissions when opening a session
+    [FBSession openActiveSessionWithReadPermissions:@[@"public_profile"]
+                                       allowLoginUI:YES
+                                  completionHandler:
+     ^(FBSession *session, FBSessionState state, NSError *error) {
+         
+         // Retrieve the app delegate
+         AppDelegate* appDelegate = [UIApplication sharedApplication].delegate;
+         // Call the app delegate's sessionStateChanged:state:error method to handle session state changes
+         [appDelegate sessionStateChanged:session state:state error:error];
+     }];
+}
+
 
 @end

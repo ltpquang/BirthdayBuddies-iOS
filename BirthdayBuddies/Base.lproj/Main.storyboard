@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mRN-rR-e6q">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="JhN-NF-eMJ">
             <objects>
-                <viewController id="mRN-rR-e6q" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="mRN-rR-e6q" customClass="LoginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ucQ-N2-rLu"/>
                         <viewControllerLayoutGuide type="bottom" id="O5b-RD-UAT"/>
@@ -26,15 +27,15 @@
                                 <state key="normal" backgroundImage="FacebookLoginButton">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="LoginWithFacebookButton_TUI:" destination="mRN-rR-e6q" eventType="touchUpInside" id="SNI-WN-IqO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don’t worryyyy, we use it to serve you only" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="le7-wf-JIi">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="10"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="4" y="397" width="392" height="24"/>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.19607843137254902" green="0.70588235294117652" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,12 +54,12 @@
                                 <exclude reference="le7-wf-JIi"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="L6c-b5-xKs"/>
-                                <exclude reference="VFg-KW-eDy"/>
-                                <exclude reference="7j1-iW-SMU"/>
-                                <exclude reference="Qei-8J-mQT"/>
                                 <exclude reference="GUy-ye-BDD"/>
                                 <exclude reference="usP-A7-Dd7"/>
+                                <exclude reference="7j1-iW-SMU"/>
+                                <exclude reference="Qei-8J-mQT"/>
+                                <exclude reference="L6c-b5-xKs"/>
+                                <exclude reference="VFg-KW-eDy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -68,12 +69,12 @@
                                 <include reference="le7-wf-JIi"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="L6c-b5-xKs"/>
-                                <include reference="VFg-KW-eDy"/>
-                                <include reference="7j1-iW-SMU"/>
-                                <include reference="Qei-8J-mQT"/>
                                 <include reference="GUy-ye-BDD"/>
                                 <include reference="usP-A7-Dd7"/>
+                                <include reference="7j1-iW-SMU"/>
+                                <include reference="Qei-8J-mQT"/>
+                                <include reference="L6c-b5-xKs"/>
+                                <include reference="VFg-KW-eDy"/>
                             </mask>
                         </variation>
                     </view>
@@ -81,6 +82,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="og2-k2-yRi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-648" y="384"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="JOP-ob-y04">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="cJO-Cz-UUY" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tvc-XE-xAX"/>
+                        <viewControllerLayoutGuide type="bottom" id="cFp-xT-2Kx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cb4-Ck-IYq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAIN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaQ-Bg-Fjo">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="28" width="43" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZE-dU-s36">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Logout">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="62" width="49" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="LogoutTUI:" destination="cJO-Cz-UUY" eventType="touchUpInside" id="luh-Ma-UTC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="iaQ-Bg-Fjo"/>
+                                <exclude reference="CZE-dU-s36"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="iaQ-Bg-Fjo"/>
+                                <include reference="CZE-dU-s36"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wY8-hV-aY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="384"/>
         </scene>
     </scenes>
     <resources>

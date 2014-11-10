@@ -15,6 +15,7 @@
 		6F4FF0AE1A02A47200501CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AD1A02A47200501CE4 /* Images.xcassets */; };
 		6F4FF0B11A02A47200501CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */; };
 		6F4FF0BD1A02A47200501CE4 /* BirthdayBuddiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */; };
+		6F90D2971A10AFF800D3B828 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F90D2961A10AFF800D3B828 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		6F4FF0B61A02A47200501CE4 /* BirthdayBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0BB1A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayBuddiesTests.m; sourceTree = "<group>"; };
+		6F90D2951A10AFF800D3B828 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
+		6F90D2961A10AFF800D3B828 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				6F25D1D41A0F35CC005D80B1 /* LoginViewController.h */,
 				6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */,
+				6F90D2951A10AFF800D3B828 /* MainViewController.h */,
+				6F90D2961A10AFF800D3B828 /* MainViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 				6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */,
 				6F4FF0A31A02A47200501CE4 /* main.m in Sources */,
 				6F25D1D61A0F35CC005D80B1 /* LoginViewController.m in Sources */,
+				6F90D2971A10AFF800D3B828 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
