@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F25D1CD1A0F2E2B005D80B1 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */; };
-		6F25D1D61A0F35CC005D80B1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */; };
 		6F4FF0A31A02A47200501CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A21A02A47200501CE4 /* main.m */; };
 		6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0A51A02A47200501CE4 /* AppDelegate.m */; };
 		6F4FF0AC1A02A47200501CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AA1A02A47200501CE4 /* Main.storyboard */; };
 		6F4FF0AE1A02A47200501CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AD1A02A47200501CE4 /* Images.xcassets */; };
 		6F4FF0B11A02A47200501CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */; };
 		6F4FF0BD1A02A47200501CE4 /* BirthdayBuddiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */; };
-		6F90D2971A10AFF800D3B828 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F90D2961A10AFF800D3B828 /* MainViewController.m */; };
+<<<<<<< HEAD
 		6FF806A21A11454F0024FE94 /* PQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF806A11A11454F0024FE94 /* PQUser.m */; };
 		6FF806A81A1155430024FE94 /* PQEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF806A71A1155430024FE94 /* PQEnum.m */; };
+=======
 		6FC167731A133615000E31C6 /* PQSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC167721A133615000E31C6 /* PQSettingManager.m */; };
+>>>>>>> dev_settingmanip
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +32,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		6F25D1D41A0F35CC005D80B1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controller/LoginViewController.h; sourceTree = "<group>"; };
-		6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controller/LoginViewController.m; sourceTree = "<group>"; };
 		6F4FF09D1A02A47200501CE4 /* BirthdayBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0A11A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0A21A02A47200501CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,14 +43,15 @@
 		6F4FF0B61A02A47200501CE4 /* BirthdayBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0BB1A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayBuddiesTests.m; sourceTree = "<group>"; };
-		6F90D2951A10AFF800D3B828 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
-		6F90D2961A10AFF800D3B828 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6FF806A01A11454F0024FE94 /* PQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQUser.h; path = Model/PQUser.h; sourceTree = "<group>"; };
 		6FF806A11A11454F0024FE94 /* PQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQUser.m; path = Model/PQUser.m; sourceTree = "<group>"; };
 		6FF806A61A1155430024FE94 /* PQEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEnum.h; path = Enum/PQEnum.h; sourceTree = "<group>"; };
 		6FF806A71A1155430024FE94 /* PQEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEnum.m; path = Enum/PQEnum.m; sourceTree = "<group>"; };
+=======
 		6FC167711A133615000E31C6 /* PQSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQSettingManager.h; path = Other/PQSettingManager.h; sourceTree = "<group>"; };
 		6FC167721A133615000E31C6 /* PQSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQSettingManager.m; path = Other/PQSettingManager.m; sourceTree = "<group>"; };
+>>>>>>> dev_settingmanip
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F25D1CD1A0F2E2B005D80B1 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,32 +72,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6F25D1CB1A0F2E16005D80B1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6F25D1CC1A0F2E2B005D80B1 /* FacebookSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6F25D1CE1A0F3380005D80B1 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		6F25D1D31A0F3588005D80B1 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				6F25D1D41A0F35CC005D80B1 /* LoginViewController.h */,
-				6F25D1D51A0F35CC005D80B1 /* LoginViewController.m */,
-				6F90D2951A10AFF800D3B828 /* MainViewController.h */,
-				6F90D2961A10AFF800D3B828 /* MainViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
 		6F4FF0941A02A47200501CE4 = {
 			isa = PBXGroup;
 			children = (
@@ -122,17 +93,17 @@
 		6F4FF09F1A02A47200501CE4 /* BirthdayBuddies */ = {
 			isa = PBXGroup;
 			children = (
-				6F25D1D31A0F3588005D80B1 /* Controller */,
-				6F25D1CE1A0F3380005D80B1 /* View */,
+<<<<<<< HEAD
 				6FF806A31A1154950024FE94 /* Enum */,
 				6FF8069F1A1145090024FE94 /* Model */,
+=======
 				6FC167701A1335E0000E31C6 /* Other */,
+>>>>>>> dev_settingmanip
 				6F4FF0A41A02A47200501CE4 /* AppDelegate.h */,
 				6F4FF0A51A02A47200501CE4 /* AppDelegate.m */,
+				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
 				6F4FF0AD1A02A47200501CE4 /* Images.xcassets */,
 				6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */,
-				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
-				6F25D1CB1A0F2E16005D80B1 /* Frameworks */,
 				6F4FF0A01A02A47200501CE4 /* Supporting Files */,
 			);
 			path = BirthdayBuddies;
@@ -164,6 +135,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		6FF8069F1A1145090024FE94 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,8 +152,7 @@
 				6FF806A71A1155430024FE94 /* PQEnum.m */,
 			);
 			name = Enum;
-			sourceTree = "<group>";
-		};
+=======
 		6FC167701A1335E0000E31C6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +160,7 @@
 				6FC167721A133615000E31C6 /* PQSettingManager.m */,
 			);
 			name = Other;
+>>>>>>> dev_settingmanip
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,8 +267,6 @@
 				6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */,
 				6FF806A81A1155430024FE94 /* PQEnum.m in Sources */,
 				6F4FF0A31A02A47200501CE4 /* main.m in Sources */,
-				6F25D1D61A0F35CC005D80B1 /* LoginViewController.m in Sources */,
-				6F90D2971A10AFF800D3B828 /* MainViewController.m in Sources */,
 				6FF806A21A11454F0024FE94 /* PQUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,12 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BirthdayBuddies",
-				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -436,12 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BirthdayBuddies",
-				);
 				INFOPLIST_FILE = BirthdayBuddies/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
