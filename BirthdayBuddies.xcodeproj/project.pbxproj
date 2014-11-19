@@ -13,6 +13,7 @@
 		6F4FF0AE1A02A47200501CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AD1A02A47200501CE4 /* Images.xcassets */; };
 		6F4FF0B11A02A47200501CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */; };
 		6F4FF0BD1A02A47200501CE4 /* BirthdayBuddiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */; };
+		6FC167731A133615000E31C6 /* PQSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC167721A133615000E31C6 /* PQSettingManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 		6F4FF0B61A02A47200501CE4 /* BirthdayBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0BB1A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayBuddiesTests.m; sourceTree = "<group>"; };
+		6FC167711A133615000E31C6 /* PQSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQSettingManager.h; path = Other/PQSettingManager.h; sourceTree = "<group>"; };
+		6FC167721A133615000E31C6 /* PQSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQSettingManager.m; path = Other/PQSettingManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 		6F4FF09F1A02A47200501CE4 /* BirthdayBuddies */ = {
 			isa = PBXGroup;
 			children = (
+				6FC167701A1335E0000E31C6 /* Other */,
 				6F4FF0A41A02A47200501CE4 /* AppDelegate.h */,
 				6F4FF0A51A02A47200501CE4 /* AppDelegate.m */,
 				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
@@ -112,6 +116,15 @@
 				6F4FF0BB1A02A47200501CE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FC167701A1335E0000E31C6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6FC167711A133615000E31C6 /* PQSettingManager.h */,
+				6FC167721A133615000E31C6 /* PQSettingManager.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FC167731A133615000E31C6 /* PQSettingManager.m in Sources */,
 				6F4FF0A61A02A47200501CE4 /* AppDelegate.m in Sources */,
 				6F4FF0A31A02A47200501CE4 /* main.m in Sources */,
 			);
@@ -408,6 +422,7 @@
 				6F4FF0C21A02A47200501CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F4FF0C31A02A47200501CE4 /* Build configuration list for PBXNativeTarget "BirthdayBuddiesTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +431,7 @@
 				6F4FF0C51A02A47200501CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
