@@ -13,9 +13,12 @@
 		6F4FF0AE1A02A47200501CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AD1A02A47200501CE4 /* Images.xcassets */; };
 		6F4FF0B11A02A47200501CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F4FF0AF1A02A47200501CE4 /* LaunchScreen.xib */; };
 		6F4FF0BD1A02A47200501CE4 /* BirthdayBuddiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */; };
+<<<<<<< HEAD
 		6FF806A21A11454F0024FE94 /* PQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF806A11A11454F0024FE94 /* PQUser.m */; };
 		6FF806A81A1155430024FE94 /* PQEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF806A71A1155430024FE94 /* PQEnum.m */; };
+=======
 		6FC167731A133615000E31C6 /* PQSettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC167721A133615000E31C6 /* PQSettingManager.m */; };
+>>>>>>> dev_settingmanip
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,12 +43,15 @@
 		6F4FF0B61A02A47200501CE4 /* BirthdayBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirthdayBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4FF0BB1A02A47200501CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F4FF0BC1A02A47200501CE4 /* BirthdayBuddiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayBuddiesTests.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		6FF806A01A11454F0024FE94 /* PQUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQUser.h; path = Model/PQUser.h; sourceTree = "<group>"; };
 		6FF806A11A11454F0024FE94 /* PQUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQUser.m; path = Model/PQUser.m; sourceTree = "<group>"; };
 		6FF806A61A1155430024FE94 /* PQEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQEnum.h; path = Enum/PQEnum.h; sourceTree = "<group>"; };
 		6FF806A71A1155430024FE94 /* PQEnum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQEnum.m; path = Enum/PQEnum.m; sourceTree = "<group>"; };
+=======
 		6FC167711A133615000E31C6 /* PQSettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PQSettingManager.h; path = Other/PQSettingManager.h; sourceTree = "<group>"; };
 		6FC167721A133615000E31C6 /* PQSettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PQSettingManager.m; path = Other/PQSettingManager.m; sourceTree = "<group>"; };
+>>>>>>> dev_settingmanip
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +93,12 @@
 		6F4FF09F1A02A47200501CE4 /* BirthdayBuddies */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				6FF806A31A1154950024FE94 /* Enum */,
 				6FF8069F1A1145090024FE94 /* Model */,
+=======
 				6FC167701A1335E0000E31C6 /* Other */,
+>>>>>>> dev_settingmanip
 				6F4FF0A41A02A47200501CE4 /* AppDelegate.h */,
 				6F4FF0A51A02A47200501CE4 /* AppDelegate.m */,
 				6F4FF0AA1A02A47200501CE4 /* Main.storyboard */,
@@ -126,6 +135,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		6FF8069F1A1145090024FE94 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,8 +152,7 @@
 				6FF806A71A1155430024FE94 /* PQEnum.m */,
 			);
 			name = Enum;
-			sourceTree = "<group>";
-		};
+=======
 		6FC167701A1335E0000E31C6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +160,7 @@
 				6FC167721A133615000E31C6 /* PQSettingManager.m */,
 			);
 			name = Other;
+>>>>>>> dev_settingmanip
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
